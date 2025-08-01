@@ -1,7 +1,19 @@
-*.pyc
+# Byte-compiled / cache files
 __pycache__/
+*.py[cod]
+
+# Airflow database and config
+airflow-*/airflow.db
+airflow-*/airflow.cfg
+
+# Logs and local dirs
+airflow-*/logs/
+airflow-*/plugins/
+airflow-*/dags/__pycache__/
+
+# Env files
 .env
-logs/
-airflow.db
-dags/__pycache__/
-plugins/__pycache__/
+*.env
+
+# System
+.DS_Store
