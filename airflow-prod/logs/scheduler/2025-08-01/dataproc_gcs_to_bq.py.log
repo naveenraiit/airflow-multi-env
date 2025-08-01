@@ -33,3 +33,269 @@
 [2025-08-01T00:02:26.223+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:02:26.222+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-08-01T00:02:26.288+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:02:26.287+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
 [2025-08-01T00:02:26.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.417 seconds
+[2025-08-01T00:47:13.386+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:47:13.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:47:13.401+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:47:13.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:47:13.531+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:47:14.577+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:47:14.570+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:47:14.766+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:47:14.755+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:47:14.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 1.594 seconds
+[2025-08-01T00:48:11.654+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:48:11.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:48:11.658+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:48:11.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:48:11.716+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:48:11.792+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:48:11.791+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:48:11.824+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:48:11.823+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:48:11.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.222 seconds
+[2025-08-01T00:48:45.394+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:48:45.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:48:45.396+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:48:45.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:48:45.434+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:48:45.469+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:48:45.468+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:48:45.490+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:48:45.490+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:48:45.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.130 seconds
+[2025-08-01T00:49:15.904+0000] {processor.py:161} INFO - Started process (PID=87) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:49:15.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:49:15.912+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:49:15.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:49:16.031+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:49:16.119+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:49:16.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:49:16.146+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:49:16.146+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:49:16.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.354 seconds
+[2025-08-01T00:49:46.673+0000] {processor.py:161} INFO - Started process (PID=97) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:49:46.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:49:46.676+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:49:46.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:49:46.706+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:49:46.749+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:49:46.747+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:49:46.772+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:49:46.772+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:49:46.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.136 seconds
+[2025-08-01T00:50:16.925+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:50:16.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:50:16.928+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:50:16.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:50:16.972+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:50:17.061+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:50:17.060+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:50:17.112+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:50:17.112+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:50:17.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.298 seconds
+[2025-08-01T00:50:48.120+0000] {processor.py:161} INFO - Started process (PID=118) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:50:48.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:50:48.124+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:50:48.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:50:48.178+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:50:48.234+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:50:48.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:50:48.281+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:50:48.280+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:50:48.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.333 seconds
+[2025-08-01T00:51:19.542+0000] {processor.py:161} INFO - Started process (PID=128) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:51:19.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:51:19.558+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:51:19.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:51:19.821+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:51:19.904+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:51:19.903+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:51:19.940+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:51:19.940+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:51:19.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.468 seconds
+[2025-08-01T00:51:50.422+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:51:50.424+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:51:50.426+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:51:50.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:51:50.462+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:51:50.494+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:51:50.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:51:50.508+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:51:50.508+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:51:50.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.120 seconds
+[2025-08-01T00:52:21.518+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:52:21.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:52:21.527+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:52:21.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:52:21.588+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:52:21.658+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:52:21.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:52:21.692+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:52:21.692+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:52:21.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.260 seconds
+[2025-08-01T00:52:51.856+0000] {processor.py:161} INFO - Started process (PID=157) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:52:51.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:52:51.859+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:52:51.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:52:51.900+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:52:51.980+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:52:51.979+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:52:52.045+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:52:52.044+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:52:52.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.309 seconds
+[2025-08-01T00:53:23.385+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:53:23.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:53:23.389+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:53:23.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:53:23.446+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:53:23.501+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:53:23.501+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:53:23.525+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:53:23.525+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:53:23.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.198 seconds
+[2025-08-01T00:53:54.061+0000] {processor.py:161} INFO - Started process (PID=176) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:53:54.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:53:54.065+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:53:54.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:53:54.119+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:53:54.209+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:53:54.208+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:53:54.256+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:53:54.256+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:53:54.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.295 seconds
+[2025-08-01T00:54:24.942+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:54:24.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:54:24.953+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:54:24.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:54:25.031+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:54:25.101+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:54:25.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:54:25.127+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:54:25.127+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:54:25.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.245 seconds
+[2025-08-01T00:54:55.796+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:54:55.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:54:55.805+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:54:55.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:54:55.854+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:54:55.940+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:54:55.939+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:54:56.010+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:54:56.009+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:54:56.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.437 seconds
+[2025-08-01T00:55:27.530+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:55:27.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:55:27.553+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:55:27.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:55:28.155+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:55:28.539+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:55:28.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:55:28.665+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:55:28.665+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:55:28.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 1.355 seconds
+[2025-08-01T00:55:59.473+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:55:59.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:55:59.479+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:55:59.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:55:59.564+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:55:59.678+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:55:59.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:55:59.719+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:55:59.719+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:55:59.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.319 seconds
+[2025-08-01T00:56:30.005+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:56:30.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:56:30.009+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:56:30.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:56:30.076+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:56:30.142+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:56:30.141+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:56:30.176+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:56:30.176+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:56:30.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.263 seconds
+[2025-08-01T00:57:00.919+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:57:00.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:57:00.923+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:57:00.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:57:00.963+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:57:01.020+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:57:01.016+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:57:01.129+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:57:01.128+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:57:01.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.257 seconds
+[2025-08-01T00:57:31.543+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:57:31.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:57:31.583+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:57:31.582+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:57:31.837+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:57:31.907+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:57:31.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:57:31.956+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:57:31.955+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:57:32.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.578 seconds
+[2025-08-01T00:58:02.979+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:58:02.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:58:02.984+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:58:02.983+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:58:03.045+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:58:03.102+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:58:03.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:58:03.135+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:58:03.134+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:58:03.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.217 seconds
+[2025-08-01T00:58:33.420+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:58:33.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:58:33.422+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:58:33.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:58:33.451+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:58:33.487+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:58:33.487+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:58:33.504+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:58:33.503+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:58:33.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.123 seconds
+[2025-08-01T00:59:03.665+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:59:03.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:59:03.668+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:59:03.667+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:59:03.713+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:59:03.755+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:59:03.755+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:59:03.771+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:59:03.770+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:59:03.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.142 seconds
+[2025-08-01T00:59:34.535+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:59:34.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T00:59:34.538+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:59:34.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:59:34.568+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T00:59:34.619+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:59:34.618+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T00:59:34.636+0000] {logging_mixin.py:188} INFO - [2025-08-01T00:59:34.635+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T00:59:34.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.140 seconds
+[2025-08-01T01:00:05.244+0000] {processor.py:161} INFO - Started process (PID=296) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:00:05.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:00:05.248+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:00:05.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:00:05.279+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:00:05.320+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:00:05.320+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:00:05.344+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:00:05.343+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:00:05.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.138 seconds
+[2025-08-01T01:00:36.113+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:00:36.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:00:36.126+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:00:36.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:00:36.202+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:00:36.366+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:00:36.365+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:00:36.436+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:00:36.436+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:00:36.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.452 seconds
+[2025-08-01T01:01:07.190+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:01:07.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:01:07.195+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:01:07.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:01:07.236+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:01:07.287+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:01:07.286+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:01:07.307+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:01:07.307+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:01:07.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.185 seconds
+[2025-08-01T01:01:38.226+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:01:38.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:01:38.241+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:01:38.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:01:38.333+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:01:38.429+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:01:38.428+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:01:38.653+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:01:38.653+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:01:38.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.605 seconds
+[2025-08-01T01:02:09.638+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:02:09.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:02:09.642+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:02:09.642+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:02:09.686+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:02:09.736+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:02:09.735+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:02:09.760+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:02:09.760+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:02:09.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.183 seconds
+[2025-08-01T01:02:40.686+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:02:40.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:02:40.692+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:02:40.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:02:40.725+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:02:40.769+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:02:40.768+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:02:40.805+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:02:40.804+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:02:40.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.173 seconds
+[2025-08-01T01:03:12.139+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:03:12.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:03:12.147+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:03:12.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:03:12.231+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:03:12.394+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:03:12.393+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:03:12.454+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:03:12.454+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:03:12.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.487 seconds
+[2025-08-01T01:03:43.273+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:03:43.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:03:43.277+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:03:43.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:03:43.392+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:03:43.540+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:03:43.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:03:43.593+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:03:43.593+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:03:43.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.550 seconds
+[2025-08-01T01:04:14.868+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:04:14.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:04:14.872+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:04:14.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:04:14.908+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:04:14.958+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:04:14.957+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:04:14.985+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:04:14.985+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:04:15.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.168 seconds
+[2025-08-01T01:04:45.129+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:04:45.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:04:45.132+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:04:45.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:04:45.157+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:04:45.197+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:04:45.196+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:04:45.215+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:04:45.214+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:04:45.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.167 seconds
+[2025-08-01T01:05:22.628+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:05:22.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:05:22.822+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:05:22.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:05:25.848+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:05:26.036+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:05:26.025+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:05:26.102+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:05:26.102+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:05:26.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 3.692 seconds
+[2025-08-01T01:05:56.584+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:05:56.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:05:56.587+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:05:56.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:05:56.611+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:05:56.643+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:05:56.642+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:05:56.658+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:05:56.657+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:05:56.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.109 seconds
+[2025-08-01T01:06:28.010+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:06:28.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:06:28.102+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:06:28.101+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:06:28.295+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:06:28.468+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:06:28.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:06:28.634+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:06:28.631+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:06:28.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.901 seconds
+[2025-08-01T01:06:59.472+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:06:59.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dataproc_gcs_to_bq.py for tasks to queue
+[2025-08-01T01:06:59.491+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:06:59.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:06:59.683+0000] {processor.py:840} INFO - DAG(s) 'dataproc_gcs_to_bq' retrieved from /opt/airflow/dags/dataproc_gcs_to_bq.py
+[2025-08-01T01:06:59.775+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:06:59.774+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-01T01:06:59.819+0000] {logging_mixin.py:188} INFO - [2025-08-01T01:06:59.819+0000] {dag.py:3823} INFO - Setting next_dagrun for dataproc_gcs_to_bq to None, run_after=None
+[2025-08-01T01:06:59.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dataproc_gcs_to_bq.py took 0.475 seconds

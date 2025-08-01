@@ -6339,3 +6339,9 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/hello_world_dag.py                                 1           0  0.22s           2025-08-01T00:01:55
 ================================================================================
 [2025-08-01T00:02:38.940+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-01T00:47:03.820+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-08-01T00:47:03.835+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-08-01T00:47:03.875+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-08-01T00:47:03.876+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-01T00:47:04.022+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-08-01T00:47:22.203+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
