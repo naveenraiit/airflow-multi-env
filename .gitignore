@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+.env
+logs/
+airflow.db
+dags/__pycache__/
+plugins/__pycache__/
