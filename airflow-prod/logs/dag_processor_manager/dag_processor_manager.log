@@ -6345,3 +6345,432 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 [2025-08-01T00:47:03.876+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
 [2025-08-01T00:47:04.022+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
 [2025-08-01T00:47:22.203+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-08-01T00:48:10.046+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-08-01T00:48:10.047+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-08-01T00:48:10.048+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-08-01T00:48:10.049+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-01T00:48:10.125+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-08-01T00:48:15.247+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py     70  0.06s             0           0
+/opt/airflow/dags/gcs_to_bq_dag.py             69  0.19s             0           0
+/opt/airflow/dags/hello_world_dag.py                                 0           0
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  3.42s           2025-08-01T00:48:15
+================================================================================
+[2025-08-01T00:48:45.378+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.91s           2025-08-01T00:48:16
+/opt/airflow/dags/dataproc_gcs_to_bq.py        77  0.01s             1           0  3.42s           2025-08-01T00:48:15
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.91s           2025-08-01T00:48:15
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.38s           2025-08-01T00:48:16
+================================================================================
+[2025-08-01T00:49:15.773+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.30s           2025-08-01T00:48:46
+/opt/airflow/dags/dataproc_gcs_to_bq.py        87  0.02s             1           0  0.17s           2025-08-01T00:48:45
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.25s           2025-08-01T00:48:46
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.43s           2025-08-01T00:48:47
+================================================================================
+[2025-08-01T00:49:46.132+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.84s           2025-08-01T00:49:17
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.52s           2025-08-01T00:49:16
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.61s           2025-08-01T00:49:17
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.45s           2025-08-01T00:49:18
+================================================================================
+[2025-08-01T00:50:16.149+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.25s           2025-08-01T00:49:49
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.18s           2025-08-01T00:49:46
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.20s           2025-08-01T00:49:47
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.25s           2025-08-01T00:49:49
+================================================================================
+[2025-08-01T00:50:46.968+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.55s           2025-08-01T00:50:20
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.42s           2025-08-01T00:50:17
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.24s           2025-08-01T00:50:18
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.55s           2025-08-01T00:50:20
+================================================================================
+[2025-08-01T00:51:17.333+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.62s           2025-08-01T00:50:51
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.42s           2025-08-01T00:50:48
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.39s           2025-08-01T00:50:49
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.63s           2025-08-01T00:50:51
+================================================================================
+[2025-08-01T00:51:47.351+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  2.16s           2025-08-01T00:51:24
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.63s           2025-08-01T00:51:20
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.49s           2025-08-01T00:51:20
+/opt/airflow/dags/hello_world_dag.py                                 1           0  1.69s           2025-08-01T00:51:24
+================================================================================
+[2025-08-01T00:52:17.403+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.19s           2025-08-01T00:51:55
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.16s           2025-08-01T00:51:50
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.17s           2025-08-01T00:51:50
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.31s           2025-08-01T00:51:54
+================================================================================
+[2025-08-01T00:52:47.749+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.39s           2025-08-01T00:52:25
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.34s           2025-08-01T00:52:21
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.44s           2025-08-01T00:52:21
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.19s           2025-08-01T00:52:25
+================================================================================
+[2025-08-01T00:53:10.682+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-01T00:53:10.759+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-08-01T00:53:17.915+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.42s           2025-08-01T00:52:56
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.45s           2025-08-01T00:52:52
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.83s           2025-08-01T00:52:53
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.32s           2025-08-01T00:52:56
+================================================================================
+[2025-08-01T00:53:48.063+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.41s           2025-08-01T00:53:27
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.28s           2025-08-01T00:53:23
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.28s           2025-08-01T00:53:23
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.43s           2025-08-01T00:53:27
+================================================================================
+[2025-08-01T00:54:18.781+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  1.55s           2025-08-01T00:53:58
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.47s           2025-08-01T00:53:54
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.38s           2025-08-01T00:53:54
+/opt/airflow/dags/hello_world_dag.py                                 1           0  1.57s           2025-08-01T00:53:58
+================================================================================
+[2025-08-01T00:54:48.809+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.29s           2025-08-01T00:54:29
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.32s           2025-08-01T00:54:25
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.33s           2025-08-01T00:54:25
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.28s           2025-08-01T00:54:29
+================================================================================
+[2025-08-01T00:55:18.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.45s           2025-08-01T00:55:00
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.61s           2025-08-01T00:54:56
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.49s           2025-08-01T00:54:56
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.49s           2025-08-01T00:55:00
+================================================================================
+[2025-08-01T00:55:49.088+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  2.29s           2025-08-01T00:55:34
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  1.67s           2025-08-01T00:55:28
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  1.43s           2025-08-01T00:55:28
+/opt/airflow/dags/hello_world_dag.py                                 1           0  2.18s           2025-08-01T00:55:35
+================================================================================
+[2025-08-01T00:56:19.338+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.57s           2025-08-01T00:56:05
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.41s           2025-08-01T00:55:59
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.39s           2025-08-01T00:55:59
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.48s           2025-08-01T00:56:06
+================================================================================
+[2025-08-01T00:56:49.578+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.24s           2025-08-01T00:56:36
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.35s           2025-08-01T00:56:30
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.33s           2025-08-01T00:56:30
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.25s           2025-08-01T00:56:36
+================================================================================
+[2025-08-01T00:57:19.747+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.25s           2025-08-01T00:57:07
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.31s           2025-08-01T00:57:01
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.31s           2025-08-01T00:57:01
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.26s           2025-08-01T00:57:07
+================================================================================
+[2025-08-01T00:57:49.753+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  1.98s           2025-08-01T00:57:39
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.73s           2025-08-01T00:57:32
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.82s           2025-08-01T00:57:32
+/opt/airflow/dags/hello_world_dag.py                                 1           0  1.78s           2025-08-01T00:57:39
+================================================================================
+[2025-08-01T00:58:10.908+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-01T00:58:11.004+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-08-01T00:58:19.762+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.53s           2025-08-01T00:58:10
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.28s           2025-08-01T00:58:03
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.26s           2025-08-01T00:58:03
+/opt/airflow/dags/hello_world_dag.py                                 1           0  1.12s           2025-08-01T00:58:10
+================================================================================
+[2025-08-01T00:58:50.214+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.22s           2025-08-01T00:58:41
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.16s           2025-08-01T00:58:33
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.16s           2025-08-01T00:58:33
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.33s           2025-08-01T00:58:41
+================================================================================
+[2025-08-01T00:59:20.406+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.28s           2025-08-01T00:59:12
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.18s           2025-08-01T00:59:03
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.18s           2025-08-01T00:59:03
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.23s           2025-08-01T00:59:12
+================================================================================
+[2025-08-01T00:59:51.012+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.20s           2025-08-01T00:59:43
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.19s           2025-08-01T00:59:34
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.17s           2025-08-01T00:59:34
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.19s           2025-08-01T00:59:43
+================================================================================
+[2025-08-01T01:00:21.749+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.18s           2025-08-01T01:00:13
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.18s           2025-08-01T01:00:05
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.18s           2025-08-01T01:00:05
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.17s           2025-08-01T01:00:13
+================================================================================
+[2025-08-01T01:00:51.970+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.18s           2025-08-01T01:00:43
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.62s           2025-08-01T01:00:36
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.62s           2025-08-01T01:00:36
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.17s           2025-08-01T01:00:43
+================================================================================
+[2025-08-01T01:01:22.881+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  1.28s           2025-08-01T01:01:15
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.24s           2025-08-01T01:01:07
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.23s           2025-08-01T01:01:07
+/opt/airflow/dags/hello_world_dag.py                                 1           0  1.19s           2025-08-01T01:01:15
+================================================================================
+[2025-08-01T01:01:53.290+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.26s           2025-08-01T01:01:46
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.73s           2025-08-01T01:01:38
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.71s           2025-08-01T01:01:38
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.26s           2025-08-01T01:01:46
+================================================================================
+[2025-08-01T01:02:23.332+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.30s           2025-08-01T01:02:17
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.26s           2025-08-01T01:02:09
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.26s           2025-08-01T01:02:09
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.29s           2025-08-01T01:02:17
+================================================================================
+[2025-08-01T01:02:53.468+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.52s           2025-08-01T01:02:48
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.23s           2025-08-01T01:02:40
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.23s           2025-08-01T01:02:40
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.59s           2025-08-01T01:02:48
+================================================================================
+[2025-08-01T01:03:11.746+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-01T01:03:12.000+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-08-01T01:03:23.625+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.31s           2025-08-01T01:03:19
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.60s           2025-08-01T01:03:12
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.48s           2025-08-01T01:03:12
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.32s           2025-08-01T01:03:19
+================================================================================
+[2025-08-01T01:03:54.315+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.23s           2025-08-01T01:03:50
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.72s           2025-08-01T01:03:43
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  1.73s           2025-08-01T01:03:44
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.24s           2025-08-01T01:03:50
+================================================================================
+[2025-08-01T01:04:24.573+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.24s           2025-08-01T01:04:20
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.24s           2025-08-01T01:04:15
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.26s           2025-08-01T01:04:15
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.25s           2025-08-01T01:04:20
+================================================================================
+[2025-08-01T01:04:54.603+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.47s           2025-08-01T01:04:51
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.24s           2025-08-01T01:04:45
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.16s           2025-08-01T01:04:45
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.49s           2025-08-01T01:04:51
+================================================================================
+[2025-08-01T01:05:25.543+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.47s           2025-08-01T01:04:51
+/opt/airflow/dags/dataproc_gcs_to_bq.py       403  4.72s             1           0  0.24s           2025-08-01T01:04:45
+/opt/airflow/dags/gcs_to_bq_dag.py            404  3.45s             1           0  0.16s           2025-08-01T01:04:45
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.49s           2025-08-01T01:04:51
+================================================================================
+[2025-08-01T01:05:55.681+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  4.23s           2025-08-01T01:05:31
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  5.71s           2025-08-01T01:05:26
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  7.06s           2025-08-01T01:05:29
+/opt/airflow/dags/hello_world_dag.py                                 1           0  2.21s           2025-08-01T01:05:31
+================================================================================
+[2025-08-01T01:06:25.697+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.44s           2025-08-01T01:06:02
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  0.15s           2025-08-01T01:05:56
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.33s           2025-08-01T01:06:00
+/opt/airflow/dags/hello_world_dag.py                                 1           0  0.30s           2025-08-01T01:06:02
+================================================================================
+[2025-08-01T01:06:55.993+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/bash_operator_example.py                           1           0  0.31s           2025-08-01T01:06:32
+/opt/airflow/dags/dataproc_gcs_to_bq.py                              1           0  1.11s           2025-08-01T01:06:29
+/opt/airflow/dags/gcs_to_bq_dag.py                                   1           0  0.54s           2025-08-01T01:06:30
+/opt/airflow/dags/hello_world_dag.py                                 1           0  1.28s           2025-08-01T01:06:34
+================================================================================

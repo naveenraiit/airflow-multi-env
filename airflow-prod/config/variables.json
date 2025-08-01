@@ -1,5 +1,0 @@
-{
-  "gcs_bucket": "airflow-multi-env-bucket",
-  "gcs_prefix": "prod/",
-  "bq_dataset": "prod_dataset"
-}
