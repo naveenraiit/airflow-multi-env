@@ -1,0 +1,42 @@
+[2025-07-31T02:48:35.421+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: gcs_to_bq_dag.load_existing_bq_table manual__2025-07-31T02:48:32.288362+00:00 [queued]>
+[2025-07-31T02:48:35.437+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: gcs_to_bq_dag.load_existing_bq_table manual__2025-07-31T02:48:32.288362+00:00 [queued]>
+[2025-07-31T02:48:35.438+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-31T02:48:35.458+0000] {taskinstance.py:2191} INFO - Executing <Task(GCSToBigQueryOperator): load_existing_bq_table> on 2025-07-31 02:48:32.288362+00:00
+[2025-07-31T02:48:35.472+0000] {standard_task_runner.py:60} INFO - Started process 786 to run task
+[2025-07-31T02:48:35.478+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'gcs_to_bq_dag', 'load_existing_bq_table', 'manual__2025-07-31T02:48:32.288362+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/gcs_to_bq_dag.py', '--cfg-path', '/tmp/tmpg9eyd8qk']
+[2025-07-31T02:48:35.486+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask load_existing_bq_table
+[2025-07-31T02:48:35.604+0000] {task_command.py:423} INFO - Running <TaskInstance: gcs_to_bq_dag.load_existing_bq_table manual__2025-07-31T02:48:32.288362+00:00 [running]> on host e63302d63f25
+[2025-07-31T02:48:35.754+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='gcs_to_bq_dag' AIRFLOW_CTX_TASK_ID='load_existing_bq_table' AIRFLOW_CTX_EXECUTION_DATE='2025-07-31T02:48:32.288362+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-31T02:48:32.288362+00:00'
+[2025-07-31T02:48:35.772+0000] {connection.py:234} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-07-31T02:48:35.784+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-07-31T02:48:35.786+0000] {gcs_to_bigquery.py:379} INFO - Using existing BigQuery table for storing data...
+[2025-07-31T02:48:35.863+0000] {bigquery.py:2312} INFO - Project is not included in destination_project_dataset_table: your_dataset.your_table; using project "target-de"
+[2025-07-31T02:48:35.864+0000] {gcs_to_bigquery.py:383} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'target-de', 'datasetId': 'your_dataset', 'tableId': 'your_table'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://sp500-***-de-project/sp500-dataset/sp500.csv'], 'writeDisposition': 'WRITE_APPEND', 'ignoreUnknownValues': False, 'skipLeadingRows': 1, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2025-07-31T02:48:35.868+0000] {bigquery.py:1596} INFO - Inserting job ***_gcs_to_bq_dag_load_existing_bq_table_2025_07_31T02_48_32_288362_00_00_f08a26aa875f3e75f73d23a4b5467eb2
+[2025-07-31T02:48:36.537+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 384, in execute
+    job: BigQueryJob | UnknownJob = self._submit_job(self.hook, job_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/transfers/gcs_to_bigquery.py", line 306, in _submit_job
+    return hook.insert_job(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/common/hooks/base_google.py", line 477, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 1599, in insert_job
+    job_api_repr._begin()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 740, in _begin
+    api_response = client._call_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/client.py", line 818, in _call_api
+    return call()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 372, in retry_wrapped_func
+    return retry_target(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/retry.py", line 207, in retry_target
+    result = target()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.NotFound: 404 POST https://bigquery.googleapis.com/bigquery/v2/projects/target-de/jobs?prettyPrint=false: Not found: Dataset target-de:your_dataset
+[2025-07-31T02:48:36.629+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=gcs_to_bq_dag, task_id=load_existing_bq_table, execution_date=20250731T024832, start_date=20250731T024835, end_date=20250731T024836
+[2025-07-31T02:48:36.669+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 13 for task load_existing_bq_table (404 POST https://bigquery.googleapis.com/bigquery/v2/projects/target-de/jobs?prettyPrint=false: Not found: Dataset target-de:your_dataset; 786)
+[2025-07-31T02:48:36.735+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-31T02:48:36.783+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
