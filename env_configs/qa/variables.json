@@ -1,0 +1,8 @@
+{
+  "gcs_bucket": "airflow-multi-env-bucket",
+  "gcs_prefix": "qa",
+  "input_path": "qa/input/",
+  "output_path": "qa/output/",
+  "logs_path": "qa/logs/",
+  "staging_path": "qa/staging/"
+}

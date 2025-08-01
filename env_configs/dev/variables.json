@@ -1,0 +1,8 @@
+{
+  "gcs_bucket": "airflow-multi-env-bucket",
+  "gcs_prefix": "dev",
+  "input_path": "dev/input/",
+  "output_path": "dev/output/",
+  "logs_path": "dev/logs/",
+  "staging_path": "dev/staging/"
+}

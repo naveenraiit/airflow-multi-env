@@ -1,0 +1,8 @@
+{
+  "gcs_bucket": "airflow-multi-env-bucket",
+  "gcs_prefix": "prod",
+  "input_path": "prod/input/",
+  "output_path": "prod/output/",
+  "logs_path": "prod/logs/",
+  "staging_path": "prod/staging/"
+}
